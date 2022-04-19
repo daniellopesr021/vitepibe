@@ -1,6 +1,6 @@
 {
   "name": "vitepibe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "vite --port 3000 --open",
     "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --fix",
