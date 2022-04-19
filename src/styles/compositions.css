@@ -1,0 +1,26 @@
+.flow {
+  display: flex;
+  margin-bottom: calc(var(--layout__padding) / 2);
+}
+
+.flow[data-type="column"] {
+  flex-direction: column;
+}
+
+.flow[data-type="row"] {
+  flex-direction: row;
+}
+
+.btn {
+  @apply 
+    px-4 py-1 
+    rounded 
+    inline-block 
+    bg-purple-600 
+    text-white 
+    cursor-pointer 
+    hover:bg-purple-700 
+    disabled:cursor-default 
+    disabled:bg-gray-600 
+    disabled:opacity-50;
+}
