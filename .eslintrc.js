@@ -15,6 +15,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2021,
   },
+  ignorePatterns: ['@types'],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
@@ -27,5 +28,4 @@ module.exports = {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'no-undef': 'off',
   },
-  argsIgnorePattern: ['@types'],
 };

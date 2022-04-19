@@ -1,7 +1,7 @@
 <script lang="ts">
   export default {
-    name: 'DTextInput'
-  }
+    name: 'DTextInput',
+  };
 </script>
 
 <script setup lang="ts">

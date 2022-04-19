@@ -1,7 +1,7 @@
 <script lang="ts">
   export default {
-    name: 'ExampleForm'
-  }
+    name: 'ExampleForm',
+  };
 </script>
 
 <script setup lang="ts">

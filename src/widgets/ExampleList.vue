@@ -1,7 +1,7 @@
 <script lang="ts">
   export default {
-    name: 'ExampleList'
-  }
+    name: 'ExampleList',
+  };
 </script>
 
 <script setup lang="ts">

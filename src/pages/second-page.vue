@@ -1,4 +1,3 @@
-
 <script lang="ts">
   export default {
     name: 'SecondPage',
@@ -12,6 +11,6 @@
 </template>
 
 <route lang="yaml">
-  meta:
-    layout: alternative
+meta:
+  layout: alternative
 </route>
